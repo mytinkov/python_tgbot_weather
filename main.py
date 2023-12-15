@@ -68,7 +68,7 @@ async def get_weather(message: types.Message):
                             f'Влажность: {humidity}%\n'
                             f'Рассвет: {sunrise_timestamp}\n'
                             f'Закат: {sunset_timestamp}\n'
-                            f'Продолжительность дня: {length_of_the_day})\n'
+                            f'Продолжительность дня: {length_of_the_day}\n'
                             f'*** Хорошего дня ***!'
                             )
 
